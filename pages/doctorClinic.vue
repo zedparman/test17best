@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div  class="container mt-3">
     <!-- <h1>doctor clinic</h1> -->
     <!-- <h1>{{ doctorClinic }}</h1> -->
     <div v-for="doctor in doctorClinic" :key="doctor.id">
