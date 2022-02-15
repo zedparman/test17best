@@ -9,14 +9,14 @@
             <h1>{{ sms_token }}</h1> -->
 
         <form @submit.prevent="handleDoctorVerify">
-          <h1>{{ phone_number }}</h1>
+          <!-- <h1>{{ phone_number }}</h1> -->
           <input
             type="text"
             class="form-control mb-2"
             v-model="full_name"
             placeholder="full_name"
           />
-          <h1>{{ sms_token }}</h1>
+          <!-- <h1>{{ sms_token }}</h1> -->
           <input
             type="text"
             class="form-control mb-2"
